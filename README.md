@@ -24,4 +24,4 @@ TO ADD IMAGE BACKGROUND: https://www.w3schools.com/css/css_background_image.asp
   I would definitely add the confetti animation when player won the game, I would also like to add a level demonstrator so as the player continued to win the level of difficulty would show on the simon says. Pretty much incrementing level every round.
   I thought about getting creative so I added the 'Do-Re-Mi-Fa' sound into the buttons rather than any simple sound, however I wanted to add 4 different sounds that made sense in any way the sequence of button would have been played. 
   
-<img src="http://g.recordit.co/dYnByHXlfW.gif" width=250><br>
+<img src="http://g.recordit.co/1oHWvli6p8.gif" width=250><br>
