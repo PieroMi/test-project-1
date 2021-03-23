@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simon Says Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Follow The Lead!</h1>
+    
+    <p>
+      
+      Welcome to the game! Follow the pattern of colors by pressing on the indicated color button!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start Game
+    </button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      End Game
+    </button>  
+    
+    <div id="gameButtonArea">
+      <button id="button1" class= "circle" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" ></button>
+      <button id="button2" class= "circle"  onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" class= "circle"  onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" class= "circle"  onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+    
+    
+    
+  </body>
+</html>  
+
+

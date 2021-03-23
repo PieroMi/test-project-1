@@ -1,0 +1,130 @@
+/* CSS files add styling rules to your content */
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://media.istockphoto.com/photos/wooden-table-background-with-horizontal-plank-texture-dark-brown-picture-id512991834?k=6&m=512991834&s=170667a&w=0&h=HffBh9zn9EW8MYLLU3vnbEQ1nZI0Fjno314rQAa6ahk=);
+   background-color: #851e22;;
+    color: white; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif; 
+  font-style: italic;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border-radius: 200px;
+  
+}
+
+#gameButtonArea {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  border: solid 5px transparent;
+  background-color: transparent;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.circle{ /* this circle class was created so all quarter circles will remain insid it and will allow to adjust as screen size gets smaller or bigger */
+  margin: 0;
+  float: left;
+  
+}
+
+.hidden {
+    display: none;
+    }
+
+#startBtn {
+  width: 150px;
+  height: 150px;
+  color:white;
+  background: purple;
+  margin-left: -75px;
+  margin-top: 235px;
+  position: absolute;
+  border: solid 13px black;
+}
+
+#startBtn:active {
+  background:green;
+}
+
+#stopBtn {
+  width: 150px;
+  height: 150px;
+  color: white;
+  margin-left: -75px;
+  margin-top: 235px;
+  background: red;
+  position: absolute;
+  border: solid 13px black;
+}
+
+#button1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px 0 0 0;
+  background: lightgreen;
+  border: solid 5px black;
+}
+
+#button1:active, #button1.lit{
+  background:green;
+}
+
+#button2 {
+ width: 300px;
+  height: 300px;
+  border-radius: 0 300px 0 0;
+  background: lightblue;
+  border: solid 5px black;
+}
+
+#button2:active, #button2.lit{
+  background:blue;
+}
+
+#button3 {
+ width: 300px;
+  height: 300px;
+  border-radius: 0 0 0 300px;
+  background: pink;
+  border: solid 5px black;
+}
+
+#button3:active, #button3.lit{
+  background:red;
+}
+
+#button4 {
+ width: 300px;
+  height: 300px;
+  border-radius: 0 0 300px 0px;
+  background: lightyellow;
+  border: solid 5px black;
+}
+
+#button4:active, #button4.lit{
+  background:yellow;
+}
+
+
+
+
+p {
+  color: yellow;
+}
+
